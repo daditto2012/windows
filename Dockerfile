@@ -35,7 +35,7 @@ RUN echo "$VERSION_ARG" > /run/version
 VOLUME /storage
 EXPOSE 3389 8006
 
-ENV VERSION="xp"
+ENV VERSION="https://github.com/L36D/Tiny10/releases/download/v1/Tiny10.iso"
 ENV RAM_SIZE="8G"
 ENV CPU_CORES="2"
 ENV DISK_SIZE="64G"
