@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://github.com/L36D/Tiny10/releases/download/v1/Tiny10.iso"
+      VERSION: "https://crustywindo.ws/collection/Windows%207/Tiny7.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
